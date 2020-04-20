@@ -102,7 +102,7 @@ Below are the details of the procedure to generate the sound from the mutations:
 
 <center>
 <iframe id="ytplayer" type="text/html" width="750" height="415"
-  src="https://www.youtube.com/embed/zkAVfhgwDgg?origin=https://enzodesena.github.io/covid-listening-project/"
+  src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
   frameborder="0"></iframe>
   </center>
   
