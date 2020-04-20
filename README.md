@@ -27,7 +27,7 @@ Please see below the details of the procedure to generate the sound:
 
 
 | Old basis  | New basis | Midi note | Note | 
-| ------------- | ------------- |------------- |
+| ------------- | ------------- |------------- |------------- |
 | C | - | 47 |B2|
 | U | - | 48 |C3|
 | A | - | 49 |C♯3/D♭3|
