@@ -68,9 +68,7 @@ Please see below the details of the procedure to generate the sound:
 |NSP14|13|5|Cello|
 |NSP15|14|5|Cello|
 |NSP16|15|5|Cello|
-| ------------- | ------------- |------------- |------------- |
 |S|16|6|Double base|
-| ------------- | ------------- |------------- |------------- |
 |ORF3a|17|7|Violin|
 |E|18|7|Violin|
 |M|19|7|Violin|
