@@ -109,9 +109,13 @@ The project also uses internally:
 ## References
 
 [1] Durbin, R., Eddy, S., Krogh, A., and Mitchison, G. (1998). Biological Sequence Analysis (Cambridge University Press).
+
 [2] H. Hacıhabiboğlu, E. De Sena, Z. Cvetković, J.D. Johnston and J. O. Smith III, "Perceptual Spatial Audio Recording, Simulation, and Rendering," IEEE Signal Processing Magazine vol. 34, no. 3, pp. 36-54, May 2017.
+
 [3] E. De Sena, Z. Cvetković, H. Hacıhabiboğlu, M. Moonen, and T. van Waterschoot, "Localization Uncertainty in Time-Amplitude Stereophonic Reproduction," IEEE/ACM Trans. Audio, Speech and Language Process. (in press).
+
 [4] E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013. 
+
 [5] E. De Sena, H. Hacıhabiboğlu, Z. Cvetković, and J. O. Smith III "Efficient Synthesis of Room Acoustics via Scattering Delay Networks," IEEE/ACM Trans. Audio, Speech and Language Process., vol. 23, no. 9, pp 1478 - 1492, Sept. 2015.
 
 
