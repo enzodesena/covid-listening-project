@@ -48,7 +48,7 @@ Please see below the details of the procedure to generate the sound:
 | - | C | 66 |F♯4/G♭4|
 | G | - | 50 |D3|
 
-* The mutations are then separated in 8 groups, spatially separated as follows (positive angles correspond to rightward direction with respect to the listener's look direction):
+* The mutations are then organised in 8 groups according to the table below. 
 
 |Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
 | ------------- | ------------- |------------- |------------- |------------- |
@@ -78,9 +78,9 @@ Please see below the details of the procedure to generate the sound:
 |ORF10|24|7|Violin|+45°|
 |Non-coding DNA|-|8|Violin|+45°|
 
-* In order to facilitate spatial separation, each group is spatialised using Perceptual Soundfield Reconstruction (PSR) [2,3,4] in a given direction; the groups are uniformly spread in front of the listener between -45° (group 1) and +45° (group 7); group 8 is also rendered at +45°; this means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right.
+* In order to facilitate spatial discrimination, each group is rendered in a different direction, as indicated in the table above. This specific separation corresponds to the actual lenght of each protein. In other words, this results in a similar experience you'd have if the RNA was actually rolled out around you and each mutation would reproduce a sound from a corresponding direction. This means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right. The specific spatialisation technique used here is Perceptual Soundfield Reconstruction (PSR) [2,3,4]. 
 
-* In order to increase presence, each source is rendered with virtual room acoustics using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m.
+* In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
 
 ## Contributing
 
@@ -94,7 +94,7 @@ We are particularly interested in collaborations with Molecular Biologists. Cont
 * **Enzo De Sena** - [desena.org](https://www.desena.org) (enzodesena AT gmail DOT com)
 * **Milton Mermikides** - [Wikipedia page](https://en.wikipedia.org/wiki/Milton_Mermikides)
 
-We are both with the Department of Music and Media, University of Surrey, Guildford, UK [DMM Website](https://www.surrey.ac.uk/department-music-and-media).
+We are both with the Department of Music and Media, University of Surrey, Guildford, UK [University of Surrey DMM Website](https://www.surrey.ac.uk/department-music-and-media).
 
 
 ## Acknowledgements
