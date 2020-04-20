@@ -13,7 +13,7 @@ Each mutation is associated here to a musical note, giving each genome its own m
 
 The project uses the database of the National Center for Biotechnology Information (NCBI), which is being updated every day with new COVID-19 sequences coming from research centres across the world. The website is available here: [NCBI Covid-19 page](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)
 
-The data is parsed and downloaded using the [covid-genome-matlab-parser](https://github.com/enzodesena/covid-genome-matlab-parser). The rest of the software will be made available soon. In the meantime, contact enzodesena AT gmail DOT com if interested.
+The data is parsed and downloaded using the [covid-genome-matlab-parser](https://github.com/enzodesena/covid-genome-matlab-parser). 
 
 ## How the comparison is run
 
@@ -121,4 +121,6 @@ The project also uses internally:
 
 ## License
 
-This project is licensed under the GNU License. You use the code, data and findings here at your own risk. See the [LICENSE.md](LICENSE.md) file for details. 
+This project is licensed under the GNU License. The code will be made available soon. In the meantime, contact enzodesena AT gmail DOT com if interested. 
+
+You use the code, data and findings here at your own risk. See the [LICENSE.md](LICENSE.md) file for details. 
