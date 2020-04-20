@@ -61,8 +61,8 @@ Please see below the details of the procedure to generate the sound:
 | ----- | ----- | ----- | ----- |
 |NSP1|1|Cello|-45°|
 |NSP2|1|Cello|-45°|
-|NSP3|2|Cello|-45°|
-|NSP4|3|Cello|-30°|
+|NSP3|2|Cello|-30°|
+|NSP4|3|Cello|-15°|
 |NSP5|3|Cello|-15°|
 |NSP6|3|Cello|-15°|
 |NSP7|3|Cello|-15°|
