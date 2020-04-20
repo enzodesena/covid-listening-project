@@ -25,7 +25,6 @@ Please see below the details of the procedure to generate the sound:
 * The mutations are considered starting from the beginning of the first protein (NSP1), i.e. at nucleotide n. 266 of the NCBI accession MT019529. Mismatches in the last 100 bases are also ignored (for reference, the RNA of COVID-19 is about 30k bases long).
 * The nucleotide mutations are translated into notes using the table below; a constant value is added to all of them; the `-` sign indicates an insertion or a deletion; all other types of mutations are ignored.
 
-<center>
 | Old basis  | New basis | Midi note | Note | 
 | ------------- | ------------- |------------- |------------- |
 | C | - | 47 |B2|
@@ -48,11 +47,9 @@ Please see below the details of the procedure to generate the sound:
 | - | U | 65 |F4|
 | - | C | 66 |F♯4/G♭4|
 | G | - | 50 |D3|
-</center>
 
 * The mutations are then separated in 8 groups, spatially separated as follows (positive angles correspond to rightward direction with respect to the listener's look direction):
 
-<center>
 |Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
 | ------------- | ------------- |------------- |------------- |
 |NSP1|1|1|Cello|-45°|
@@ -80,7 +77,6 @@ Please see below the details of the procedure to generate the sound:
 |N|23|7|Violin|+45°|
 |ORF10|24|7|Violin|+45°|
 |Non-coding DNA|-|8|Violin|+45°|
-</center>
 
 * In order to facilitate spatial separation, each group is spatialised using Perceptual Soundfield Reconstruction (PSR) [2,3,4] in a given direction; the groups are uniformly spread in front of the listener between -45° (group 1) and +45° (group 7); group 8 is also rendered at +45°; this means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right.
 
