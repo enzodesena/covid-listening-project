@@ -57,33 +57,33 @@ Please see below the details of the procedure to generate the sound:
 
 * The mutations are then organised in 8 groups according to the table below. 
 
-|Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
+|Protein name|Group|Instrument|Angle|
 | ----- | ----- | ----- | ----- |
-|NSP1|1|1|Cello|-45°|
-|NSP2|2|1|Cello|-45°|
-|NSP3|3|2|Cello|-45°|
-|NSP4|4|3|Cello|-30°|
-|NSP5|5|3|Cello|-15°|
-|NSP6|6|3|Cello|-15°|
-|NSP7|7|3|Cello|-15°|
-|NSP8|8|3|Cello|-15°|
-|NSP9|9|4|Cello|0°|
-|NSP10|10|4|Cello|0°|
-|NSP12|11|4|Cello|0°|
-|NSP13|12|5|Cello|+15°|
-|NSP14|13|5|Cello|+15°|
-|NSP15|14|5|Cello|+15°|
-|NSP16|15|5|Cello|+15°|
-|S|16|6|Double base|+30°|
-|ORF3a|17|7|Violin|+45°|
-|E|18|7|Violin|+45°|
-|M|19|7|Violin|+45°|
-|ORF6|20|7|Violin|+45°|
-|ORF7a|21|7|Violin|+45°|
-|ORF8|22|7|Violin|+45°|
-|N|23|7|Violin|+45°|
-|ORF10|24|7|Violin|+45°|
-|Non-coding DNA|-|8|Violin|+45°|
+|NSP1|1|Cello|-45°|
+|NSP2|1|Cello|-45°|
+|NSP3|2|Cello|-45°|
+|NSP4|3|Cello|-30°|
+|NSP5|3|Cello|-15°|
+|NSP6|3|Cello|-15°|
+|NSP7|3|Cello|-15°|
+|NSP8|3|Cello|-15°|
+|NSP9|4|Cello|0°|
+|NSP10|4|Cello|0°|
+|NSP12|4|Cello|0°|
+|NSP13|5|Cello|+15°|
+|NSP14|5|Cello|+15°|
+|NSP15|5|Cello|+15°|
+|NSP16|5|Cello|+15°|
+|S|6|Double base|+30°|
+|ORF3a|7|Violin|+45°|
+|E|7|Violin|+45°|
+|M|7|Violin|+45°|
+|ORF6|7|Violin|+45°|
+|ORF7a|7|Violin|+45°|
+|ORF8|7|Violin|+45°|
+|N|7|Violin|+45°|
+|ORF10|7|Violin|+45°|
+|Non-coding DNA|8|Violin|+45°|
 
 
 
