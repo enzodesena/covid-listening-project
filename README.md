@@ -9,8 +9,8 @@ The current sonification methodology associates notes' timing to the position of
 Each mutation is associated here to a musical note, giving each genome its own musical signature. The position in the sequence dictates timing and the type of mutation (e.g. adenine to guanine) dictates the pitch. Mutations near the beginning of the sequence are reproduced to your left and later ones to your right. Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
 
 <center>
-<iframe id="ytplayer" type="text/html" width="850" height="480"
-  src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&origin=https://enzodesena.github.io/covid-listening-project/"
+<iframe id="ytplayer" type="text/html" width="750" height="415"
+  src="https://www.youtube.com/embed/zkAVfhgwDgg?origin=https://enzodesena.github.io/covid-listening-project/"
   frameborder="0"></iframe>
   </center>
 
