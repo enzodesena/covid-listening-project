@@ -51,7 +51,7 @@ Please see below the details of the procedure to generate the sound:
 * The mutations are then separated in 8 groups, spatially separated as follows (positive angles correspond to rightward direction with respect to the listener's look direction):
 
 |Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
-| ------------- | ------------- |------------- |------------- |
+| ------------- | ------------- |------------- |------------- |------------- |
 |NSP1|1|1|Cello|-45°|
 |NSP2|2|1|Cello|-45°|
 |NSP3|3|2|Cello|-45°|
