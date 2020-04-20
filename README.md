@@ -8,11 +8,6 @@ The current sonification methodology associates notes' timing to the position of
 
 Each mutation is associated here to a musical note, giving each genome its own musical signature. The position in the sequence dictates timing and the type of mutation (e.g. adenine to guanine) dictates the pitch. Mutations near the beginning of the sequence are reproduced to your left and later ones to your right. Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
 
-<center>
-<iframe id="ytplayer" type="text/html" width="750" height="415"
-  src="https://www.youtube.com/embed/zkAVfhgwDgg?origin=https://enzodesena.github.io/covid-listening-project/"
-  frameborder="0"></iframe>
-  </center>
 
 
 ## Data gathering
@@ -21,14 +16,27 @@ The project uses the database of the National Center for Biotechnology Informati
 
 The data is parsed and downloaded using the [covid-genome-matlab-parser](https://github.com/enzodesena/covid-genome-matlab-parser). 
 
-## How the comparison is run
+## How the mutations are obtained from the NCBI dataset 
 
-Please see below the details of the procedure to generate the sound:
+The first step is to obtain the mutations are obtained from the NCBI dataset:
 
 * The genomic comparison is run on the basis of the nucleotide sequences (in GACU symbols).
 * In order to reduce the amount of data (currently over 700 genomes), only the first measurement of a day is considered; this currently reduces the number of genomes to 74.
 * The comparison of genome pairs is carried out using the Needleman-Wunsch global alignment algorithm [1], which allows to identify the genetic mutations.
 * The mutations are considered starting from the beginning of the first protein (NSP1), i.e. at nucleotide n. 266 of the NCBI accession MT019529. Mismatches in the last 100 bases are also ignored (for reference, the RNA of COVID-19 is about 30k bases long).
+
+
+## How the mutations are translated to music
+
+
+The second step is to translate the mutations into music. 
+Below are two examples of how to do this. 
+
+
+### Youtube video
+
+Below are the details of the procedure to generate the sound from the mutations:
+
 * The nucleotide mutations are translated into notes using the table below; a constant value is added to all of them; the `-` sign indicates an insertion or a deletion; all other types of mutations are ignored.
 
 | Old basis  | New basis | Midi note | Note | 
@@ -90,6 +98,23 @@ Please see below the details of the procedure to generate the sound:
 * In order to facilitate spatial discrimination, each group is rendered in a different direction, as indicated in the table above. This specific separation corresponds to the actual lenght of each protein. In other words, this results in a similar experience you'd have if the RNA was actually rolled out around you and each mutation would reproduce a sound from a corresponding direction. This means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right. The specific spatialisation technique used here is Perceptual Soundfield Reconstruction (PSR) [2,3,4]. 
 
 * In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
+
+
+<center>
+<iframe id="ytplayer" type="text/html" width="750" height="415"
+  src="https://www.youtube.com/embed/zkAVfhgwDgg?origin=https://enzodesena.github.io/covid-listening-project/"
+  frameborder="0"></iframe>
+  </center>
+  
+  
+### Covid Steps
+
+Soon we'll add here details on how Covid Steps was obtained. 
+
+<center>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797742040&color=%235d3a47&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</center>
+
 
 ## Contributing
 
