@@ -25,7 +25,7 @@ Please see below the details of the procedure to generate the sound:
 * The mutations are considered starting from the beginning of the first protein (NSP1), i.e. at nucleotide n. 266 of the NCBI accession MT019529. Mismatches in the last 100 bases are also ignored (for reference, the RNA of COVID-19 is about 30k bases long).
 * The nucleotide mutations are translated into notes using the table below; a constant value is added to all of them; the `-` sign indicates an insertion or a deletion; all other types of mutations are ignored.
 
-
+<center>
 | Old basis  | New basis | Midi note | Note | 
 | ------------- | ------------- |------------- |------------- |
 | C | - | 47 |B2|
@@ -48,38 +48,41 @@ Please see below the details of the procedure to generate the sound:
 | - | U | 65 |F4|
 | - | C | 66 |F♯4/G♭4|
 | G | - | 50 |D3|
+</center>
 
-* The mutations are then separated in 8 groups, spacially separated as follows:
+* The mutations are then separated in 8 groups, spatially separated as follows (positive angles correspond to rightward direction with respect to the listener's look direction):
 
-|Protein name|Protein index|Group index|Instrument type|
+<center>
+|Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
 | ------------- | ------------- |------------- |------------- |
-|NSP1|1|1|Cello|
-|NSP2|2|1|Cello|
-|NSP3|3|2|Cello|
-|NSP4|4|3|Cello|
-|NSP5|5|3|Cello|
-|NSP6|6|3|Cello|
-|NSP7|7|3|Cello|
-|NSP8|8|3|Cello|
-|NSP9|9|4|Cello|
-|NSP10|10|4|Cello|
-|NSP12|11|4|Cello|
-|NSP13|12|5|Cello|
-|NSP14|13|5|Cello|
-|NSP15|14|5|Cello|
-|NSP16|15|5|Cello|
-|S|16|6|Double base|
-|ORF3a|17|7|Violin|
-|E|18|7|Violin|
-|M|19|7|Violin|
-|ORF6|20|7|Violin|
-|ORF7a|21|7|Violin|
-|ORF8|22|7|Violin|
-|N|23|7|Violin|
-|ORF10|24|7|Violin|
-|Non-coding DNA|-|8|Violin|
+|NSP1|1|1|Cello|-45°|
+|NSP2|2|1|Cello|-45°|
+|NSP3|3|2|Cello|-45°|
+|NSP4|4|3|Cello|-30°|
+|NSP5|5|3|Cello|-15°|
+|NSP6|6|3|Cello|-15°|
+|NSP7|7|3|Cello|-15°|
+|NSP8|8|3|Cello|-15°|
+|NSP9|9|4|Cello|0°|
+|NSP10|10|4|Cello|0°|
+|NSP12|11|4|Cello|0°|
+|NSP13|12|5|Cello|+15°|
+|NSP14|13|5|Cello|+15°|
+|NSP15|14|5|Cello|+15°|
+|NSP16|15|5|Cello|+15°|
+|S|16|6|Double base|+30°|
+|ORF3a|17|7|Violin|+45°|
+|E|18|7|Violin|+45°|
+|M|19|7|Violin|+45°|
+|ORF6|20|7|Violin|+45°|
+|ORF7a|21|7|Violin|+45°|
+|ORF8|22|7|Violin|+45°|
+|N|23|7|Violin|+45°|
+|ORF10|24|7|Violin|+45°|
+|Non-coding DNA|-|8|Violin|+45°|
+</center>
 
-* In order to facilitate spatial separation, each group is spatialised using Perceptual Soundfield Reconstruction (PSR) [2,3,4] in a given direction; the groups are uniformly spread in front of the listener between approximately -45 degrees (group 1) and +45 degrees (group 7); group 8 is also rendered at +45 degrees; this means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right.
+* In order to facilitate spatial separation, each group is spatialised using Perceptual Soundfield Reconstruction (PSR) [2,3,4] in a given direction; the groups are uniformly spread in front of the listener between -45° (group 1) and +45° (group 7); group 8 is also rendered at +45°; this means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right.
 
 * In order to increase presence, each source is rendered with virtual room acoustics using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m.
 
