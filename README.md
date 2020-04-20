@@ -107,9 +107,9 @@ Below are the details of the procedure to generate the sound from the mutations:
   </center>
   
   
-### Covid Steps
+### Chorus of Changes
 
-Soon we'll add here details on how Covid Steps was obtained. 
+Here, over 500 genome sequences are translated into two octaves of a B minor scale. The translations are selected by mapping the most common mutations types ('note deltas' above) into the most common diatonic scale degrees on a sample of Western Art Music (see Huron 2008)[6]. This results in familiar melodic motifs for the most commonly retained mutations and pandiatonic blurring for the more novel mutations. At the tempo selected this results in a surprisingly engaging piece of music lasting over 42 minutes, where the language of mutation is translated into the language motivic transformation, a deeper sonificaiton beyond arbitrary chormatic or 'safe' scale choices.This is performable by choir and organ nut its here rendered with MIDI instrumentations in Ableton Live with UAD and Native Instrument plugins. 
 
 <center>
 <iframe width="750" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797742040&color=%235d3a47&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -151,6 +151,8 @@ The project also uses internally:
 [4] E. De Sena, H. Hacıhabiboğlu, and Z. Cvetković, "Analysis and Design of Multichannel Systems for Perceptual Sound Field Reconstruction," IEEE Trans. on Audio, Speech and Language Process., vol. 21 , no. 8, pp 1653-1665, Aug. 2013. 
 
 [5] E. De Sena, H. Hacıhabiboğlu, Z. Cvetković, and J. O. Smith III "Efficient Synthesis of Room Acoustics via Scattering Delay Networks," IEEE/ACM Trans. Audio, Speech and Language Process., vol. 23, no. 9, pp 1478 - 1492, Sept. 2015.
+
+[6] Huron, D. (2008) Sweet Anticipation: Music and the Psychology of Expectation. MIT Press
 
 
 ## License
