@@ -32,7 +32,7 @@ Please see below the details of the procedure to generate the sound:
 * The nucleotide mutations are translated into notes using the table below; a constant value is added to all of them; the `-` sign indicates an insertion or a deletion; all other types of mutations are ignored.
 
 | Old basis  | New basis | Midi note | Note | 
-| ------------- | ------------- |------------- |------------- |
+| ----- | ----- | ----- | ----- |
 | C | - | 47 |B2|
 | U | - | 48 |C3|
 | A | - | 49 |C♯3/D♭3|
@@ -58,7 +58,7 @@ Please see below the details of the procedure to generate the sound:
 * The mutations are then organised in 8 groups according to the table below. 
 
 |Protein name|Protein index|Group index|Instrument type|Reproduction Angle|
-| ------------- | ------------- |------------- |------------- |------------- |
+| ----- | ----- | ----- | ----- |
 |NSP1|1|1|Cello|-45°|
 |NSP2|2|1|Cello|-45°|
 |NSP3|3|2|Cello|-45°|
