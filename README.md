@@ -10,9 +10,11 @@ Each mutation is associated here to a musical note, giving each genome its own m
 
 
 <center>
+  <div class="video-container">
 <iframe id="ytplayer" type="text/html" width="750" height="422"
   src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
   frameborder="0"></iframe>
+  </div>
 </center>
 
 <br/>
