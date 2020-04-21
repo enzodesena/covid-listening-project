@@ -15,7 +15,7 @@ Each mutation is associated here to a musical note, giving each genome its own m
   frameborder="0"></iframe>
 </center>
 
-<br/><br/>
+<br/>
   
   
 <center>
@@ -75,7 +75,7 @@ Below are the details of the procedure to generate the sound from the mutations:
 | - | C | 66 |F♯4/G♭4|
 | G | - | 50 |D3|
 
-<br/><br/>
+<br/>
 * The mutations are then organised in 8 groups according to the table below. 
 
 |Protein name|Group|Instrument|Angle|
@@ -107,7 +107,7 @@ Below are the details of the procedure to generate the sound from the mutations:
 |Non-coding DNA|8|Violin|+45°|
 
 
-<br/><br/>
+<br/>
 * In order to facilitate spatial discrimination, each group is rendered in a different direction, as indicated in the table above. This specific separation corresponds to the actual lenght of each protein. In other words, this results in a similar experience you'd have if the RNA was actually rolled out around you and each mutation would reproduce a sound from a corresponding direction. This means that **not only one can identify the position of the mutation by using the time delay, but also the perceived position of the sound in space**, with mutations closer to the beginning of the sequence appearing to your left, while later ones appearing to your right. The specific spatialisation technique used here is Perceptual Soundfield Reconstruction (PSR) [2,3,4]. 
 
 * In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
