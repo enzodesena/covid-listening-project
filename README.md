@@ -115,10 +115,10 @@ Below are the details of the procedure to generate the sound from the mutations:
 
 * In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
 
-
+* The (informal) protein labels are taken from the NYT article in [7].
   
   
-### Chorus of Changes
+### Chorus of Changes (soundcloud)
 
 Here, over 500 genome sequences are translated into two octaves of a B minor scale. The translations are selected by mapping the most common mutations types ('note deltas' above) into the most common diatonic scale degrees on a sample of Western Art Music (see Huron 2008)[6]. This results in familiar melodic motifs for the most commonly retained mutations and pandiatonic blurring for the more novel mutations. At the tempo selected this results in a surprisingly engaging piece of music lasting over 42 minutes, where the language of mutation is translated into the language motivic transformation, a deeper sonificaiton beyond arbitrary chormatic or 'safe' scale choices.This is performable by choir and organ nut its here rendered with MIDI instrumentations in Ableton Live with UAD and Native Instrument plugins. 
 
@@ -161,6 +161,9 @@ The project also uses internally:
 [5] E. De Sena, H. Hacıhabiboğlu, Z. Cvetković, and J. O. Smith III "Efficient Synthesis of Room Acoustics via Scattering Delay Networks," IEEE/ACM Trans. Audio, Speech and Language Process., vol. 23, no. 9, pp 1478 - 1492, Sept. 2015.
 
 [6] Huron, D. (2008) Sweet Anticipation: Music and the Psychology of Expectation. MIT Press
+
+[7] https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html (Accessed on: 8/3/2020)
+
 
 ## License
 
