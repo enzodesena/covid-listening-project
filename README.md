@@ -4,9 +4,9 @@ This project aims to turn the genetic mutations of COVID-19 into music. The main
 
 The genome is formed by a long sequence of 4 types of nucleotides: adenine (A), guanine (G), cytosine (c), and uracil (U). This sequence is used to synthesise specific proteins such as the "Spike protein", which gives COVID-19 its crown-like appearance. A mutation happens when a nucleotide is changed, inserted or deleted in the sequence. 
 
-The current sonification methodology associates notes' timing to the position of the mutation within the DNA and pitch to the type of nucleotide mutation (e.g. G->A, or C->U etc). This means that the position of the mutation results in different rhythmic placement, and the type of nucleotide mutation results in different melodies, **giving each genome its own musical signature**. Furthemore, **repeating musical patterns mean that a mutation has persisted over time**. 
+The current sonification methodology associates notes' timing to the position of the mutation within the DNA and pitch to the type of nucleotide mutation (e.g. adenine to guanine). This means that the position of the mutation results in different rhythmic placement, and the type of nucleotide mutation results in different melodies, **giving each genome its own musical signature**. Furthemore, **repeating musical patterns mean that a mutation has persisted over time**. 
 
-Each mutation is associated here to a musical note, giving each genome its own musical signature. The position in the sequence dictates timing and the type of mutation (e.g. adenine to guanine) dictates the pitch. Mutations near the beginning of the sequence are reproduced to your left and later ones to your right. Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
+Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
 
 
 <center>
