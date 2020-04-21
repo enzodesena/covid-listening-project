@@ -9,6 +9,19 @@ The current sonification methodology associates notes' timing to the position of
 Each mutation is associated here to a musical note, giving each genome its own musical signature. The position in the sequence dictates timing and the type of mutation (e.g. adenine to guanine) dictates the pitch. Mutations near the beginning of the sequence are reproduced to your left and later ones to your right. Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
 
 
+## 
+
+<center>
+<iframe id="ytplayer" type="text/html" width="750" height="425"
+  src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
+  frameborder="0"></iframe>
+</center>
+  
+  
+<center>
+<iframe width="750" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797742040&color=%235d3a47&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</center>
+
 
 ## Data gathering
 
@@ -100,20 +113,15 @@ Below are the details of the procedure to generate the sound from the mutations:
 * In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
 
 
-<center>
-<iframe id="ytplayer" type="text/html" width="750" height="425"
-  src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
-  frameborder="0"></iframe>
-  </center>
+* In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
+
+
   
   
 ### Chorus of Changes
 
 Here, over 500 genome sequences are translated into two octaves of a B minor scale. The translations are selected by mapping the most common mutations types ('note deltas' above) into the most common diatonic scale degrees on a sample of Western Art Music (see Huron 2008)[6]. This results in familiar melodic motifs for the most commonly retained mutations and pandiatonic blurring for the more novel mutations. At the tempo selected this results in a surprisingly engaging piece of music lasting over 42 minutes, where the language of mutation is translated into the language motivic transformation, a deeper sonificaiton beyond arbitrary chormatic or 'safe' scale choices.This is performable by choir and organ nut its here rendered with MIDI instrumentations in Ableton Live with UAD and Native Instrument plugins. 
 
-<center>
-<iframe width="750" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797742040&color=%235d3a47&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-</center>
 
 
 ## Contributing
@@ -153,7 +161,6 @@ The project also uses internally:
 [5] E. De Sena, H. Hacıhabiboğlu, Z. Cvetković, and J. O. Smith III "Efficient Synthesis of Room Acoustics via Scattering Delay Networks," IEEE/ACM Trans. Audio, Speech and Language Process., vol. 23, no. 9, pp 1478 - 1492, Sept. 2015.
 
 [6] Huron, D. (2008) Sweet Anticipation: Music and the Psychology of Expectation. MIT Press
-
 
 ## License
 
