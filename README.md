@@ -117,7 +117,7 @@ Below are the details of the procedure to generate the sound from the mutations:
 
 * In order to increase presence, each source is rendered with reverberation using Scattering Delay Networks (SDN) [2,5]; the simulated room is rectangular with size 10 m x 10 m x 3 m. The listener is approximately in the center of the space, and the sound source is 2 meters away from the listener. 
 
-* The (informal) protein labels are taken from the NYT article in [7].
+* The (informal) protein labels are taken from the NYT article in [7], which were inspired by the findings in [8].
   
   
 ### Chorus of Changes (soundcloud)
@@ -143,7 +143,7 @@ We are both with the Department of Music and Media, University of Surrey, Guildf
 
 ## Acknowledgements
 
-We would like to thank Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy) and Niki Loverdu (KU Leuven, Belgium)  for the useful discussions on topic. Also, we would like to thank our friends and colleagues for the useful feedback on the presentation.
+We would like to thank Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy) and Niki Loverdu (KU Leuven, Belgium)  for the useful discussions on topic. Thanks also to [Carl Zimmer](https://carlzimmer.com) for his reference to the Nature article [8]. Finally, we would like to thank our friends and colleagues for the useful feedback on the presentation.
 
 The project also uses internally:
 
@@ -165,6 +165,8 @@ The project also uses internally:
 [6] Huron, D. (2008) Sweet Anticipation: Music and the Psychology of Expectation. MIT Press
 
 [7] https://www.nytimes.com/interactive/2020/04/03/science/coronavirus-genome-bad-news-wrapped-in-protein.html (Accessed on: 8/3/2020)
+
+[8] Gordon, D.E., Jang, G.M., Bouhaddou, M. et al. A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature (2020)
 
 
 ## License
