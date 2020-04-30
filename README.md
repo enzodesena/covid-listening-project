@@ -1,6 +1,10 @@
 # Sonifying COVID-19 genetic mutations over time
 
-These uncertain times has brought into sharp focus the importance of scientific research and communication. Our understanding of the world is filtered through the filters of our conceptual and scientific knowledge, and the value of multi-modal representations of data is growing. In response to this we have set up the Covid-19 Listening Project dedicated to the sonic and musical representation of Covid-19 data. In consultation with geneticist Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy), programming and music technology resources are employed in the communication of relevant genetic patterns in the disease. Such data as the structure of the Covid-19 genome, the points of mutation within it, protein coding, the comparative genetics in the phylogenetic tree of Covid-19 samples and their geographical distribution are translated into pitch, rhythms and harmonies to create rich and compelling communicative works. A 42-minute choral piece and a genomic-spatial realisation have already been produced using these techniques.  
+These uncertain times has brought into sharp focus the importance of scientific research and communication. Our understanding of the world is filtered through the filters of our conceptual and scientific knowledge, and the value of multi-modal representations of data is growing. In response to this we have set up the Covid-19 Listening Project dedicated to the sonic and musical representation of Covid-19 data. 
+
+In consultation with geneticist Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy), programming and music technology resources are employed in the communication of relevant genetic patterns in the disease. Such data as the structure of the Covid-19 genome, the points of mutation within it, protein coding, the comparative genetics in the phylogenetic tree of Covid-19 samples and their geographical distribution are translated into pitch, rhythms and harmonies to create rich and compelling communicative works. 
+
+A 42-minute choral piece and a genomic-spatial realisation have already been produced using these techniques.  
 
 
 
