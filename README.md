@@ -1,12 +1,7 @@
 # Sonifying COVID-19 genetic mutations over time
 
-This project aims to turn the genetic mutations of COVID-19 into music. The main objective of the project is to satisfy a personal curiosity and explore the artistic dimension. It is also hoped that **sonifying the mutations could highlight patterns that would not be picked up otherwise**. 
+These uncertain times has brought into sharp focus the importance of scientific research and communication. Our understanding of the world is filtered through the filters of our conceptual and scientific knowledge, and the value of multi-modal representations of data is growing. In response to this we have set up the Covid-19 Listening Project dedicated to the sonic and musical representation of Covid-19 data. In consultation with geneticist Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy), programming and music technology resources are employed in the communication of relevant genetic patterns in the disease. Such data as the structure of the Covid-19 genome, the points of mutation within it, protein coding, the comparative genetics in the phylogenetic tree of Covid-19 samples and their geographical distribution are translated into pitch, rhythms and harmonies to create rich and compelling communicative works. A 42-minute choral piece and a genomic-spatial realisation have already been produced using these techniques.  
 
-The genome is formed by a long sequence of 4 types of nucleotides: adenine (A), guanine (G), cytosine (c), and uracil (U). This sequence is used to synthesise specific proteins such as the "Spike protein", which gives COVID-19 its crown-like appearance. A mutation happens when a nucleotide is changed, inserted or deleted in the sequence. 
-
-The current sonification methodology associates notes' timing to the position of the mutation within the DNA and pitch to the type of nucleotide mutation (e.g. adenine to guanine). This means that the position of the mutation results in different rhythmic placement, and the type of nucleotide mutation results in different melodies, **giving each genome its own musical signature**. Furthemore, **repeating musical patterns mean that a mutation has persisted over time**. 
-
-Note that although it may seem like the number of mutations is large, COVID-19 is actually considered a relatively stable virus. 
 
 
 <center>
@@ -23,6 +18,15 @@ Note that although it may seem like the number of mutations is large, COVID-19 i
 <center>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/797742040&color=%235d3a47&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </center>
+
+
+## Background
+
+The genome is formed by a long sequence of 4 types of nucleotides: adenine (A), guanine (G), cytosine (c), and uracil (U). This sequence is used to synthesise specific proteins such as the "Spike protein", which gives COVID-19 its crown-like appearance. A mutation happens when a nucleotide is changed, inserted or deleted in the sequence. 
+
+The current sonification methodology associates notes' timing to the position of the mutation within the DNA and pitch to the type of nucleotide mutation (e.g. adenine to guanine). This means that the position of the mutation results in different rhythmic placement, and the type of nucleotide mutation results in different melodies, **giving each genome its own musical signature**. Furthemore, **repeating musical patterns mean that a mutation has persisted over time**. 
+
+Note that even though the number of mutations may seem large, COVID-19 is actually considered a relatively stable virus. 
 
 
 ## Data gathering
