@@ -143,7 +143,7 @@ We are both with the Department of Music and Media, University of Surrey, Guildf
 
 ## Acknowledgements
 
-We would like to thank Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy) and Niki Loverdu (KU Leuven, Belgium)  for the useful discussions on topic. Thanks also to [Carl Zimmer](https://carlzimmer.com) for his reference to the Nature article [8]. Finally, we would like to thank our friends and colleagues for the useful feedback on the presentation.
+We would like to thank Gemma Bruno (Telethon Institute of Genetics and Medicine, Italy) and Niki Loverdu (KU Leuven, Belgium)  for the useful discussions on topic. Thanks also to [Carl Zimmer](https://carlzimmer.com) for pointing us to the Nature article [8]. Finally, we would like to thank our friends and colleagues for the useful feedback on the presentation.
 
 The project also uses internally:
 
