@@ -7,11 +7,10 @@ In consultation with geneticist Gemma Bruno (Telethon Institute of Genetics and 
 A 42-minute choral piece and a genomic-spatial realisation have already been produced using these techniques.  
 
 
-
 <center>
   <div class="video-container">
 <iframe id="ytplayer" type="text/html" width="750" height="422"
-  src="https://www.youtube.com/embed/zkAVfhgwDgg?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
+  src="https://www.youtube.com/embed/gj50HvWtll8?autoplay=1&mute=1&origin=https://enzodesena.github.io/covid-listening-project/"
   frameborder="0"></iframe>
   </div>
 </center>
