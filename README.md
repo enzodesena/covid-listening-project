@@ -66,6 +66,7 @@ Below are the details of the procedure to generate the sound from the mutations:
 | C | - | 47 |B2|
 | U | - | 48 |C3|
 | A | - | 49 |C♯3/D♭3|
+| G | - | 50 |D3|
 | G  |  A | 51 | D♯3/E♭3|
 | G  |  U | 52 |E3|
 | G  |  C | 53 |F3|
@@ -82,7 +83,6 @@ Below are the details of the procedure to generate the sound from the mutations:
 | - | A | 64 |E4|
 | - | U | 65 |F4|
 | - | C | 66 |F♯4/G♭4|
-| G | - | 50 |D3|
 
 <br/>
 * The mutations are then organised in 8 groups according to the table below. 
